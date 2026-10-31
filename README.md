@@ -1,38 +1,38 @@
-# Apex ER Consulting LLC — web local v1
+# Apex ER Consulting LLC — local website v1
 
-Web estática bilingüe sin dependencias, sin compilación y sin servicios externos.
+Bilingual static website with no dependencies, build step, or external services.
 
-## Abrir en Ubuntu o macOS
+## Open on Ubuntu or macOS
 
-1. Descomprime el ZIP.
-2. Abre una terminal dentro de la carpeta `apex-er`.
-3. Ejecuta:
+1. Unzip the archive.
+2. Open a terminal in the `apex-er` folder.
+3. Run:
 
 ```bash
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-4. Visita http://localhost:8000 en tu navegador.
-5. Detén el servidor con Ctrl+C.
+4. Visit http://localhost:8000 in your browser.
+5. Stop the server with Ctrl+C.
 
-Si Python 3 no está disponible en Ubuntu: `sudo apt install python3`.
-En macOS puedes instalar Python 3 desde python.org.
-También puedes abrir `index.html` directamente con tu navegador. Se recomienda el servidor local para probarla.
+If Python 3 is not available on Ubuntu, run `sudo apt install python3`.
+On macOS, you can install Python 3 from python.org.
+You can also open `index.html` directly in your browser. The local server is recommended for testing.
 
-## Archivos
+## Files
 
-- index.html: estructura y textos. Los atributos data-en y data-es contienen las traducciones.
-- style.css: diseño adaptable y colores.
-- script.js: selector de idioma, preferencia local y año.
+- `index.html`: structure and text. The `data-en` and `data-es` attributes contain the translations.
+- `style.css`: responsive layout and colors.
+- `script.js`: language selector, local preference, and year.
 
-## Antes de publicar
+## Before publishing
 
-- Confirmar adquisición y dominio definitivo (apexer.io es candidato, no una compra confirmada).
-- Añadir correo empresarial y enlace de agenda reales en la sección #contact.
-- Revisar textos, servicios y presentación del fundador.
-- Definir metadatos sociales y URL canónica una vez confirmado el dominio.
-- Evaluar requisitos de privacidad según las herramientas de contacto o analítica que se incorporen.
+- Confirm the acquisition and final domain (`apexer.io` is a candidate, not a confirmed purchase).
+- Add a real business email address and scheduling link in the `#contact` section.
+- Review the copy, services, and founder bio.
+- Set social metadata and a canonical URL once the domain is confirmed.
+- Assess privacy requirements based on any contact or analytics tools that are added.
 
-No hay formulario que simule envíos: contacto y agenda muestran un aviso transparente pendiente de configuración. No se recopilan datos ni se usan fuentes, scripts, analítica o imágenes de terceros. La preferencia de idioma se guarda únicamente en el navegador.
+There is no form that simulates submissions: the contact and scheduling sections display a transparent notice that they are awaiting configuration. No data is collected, and no third-party fonts, scripts, analytics, or images are used. The language preference is stored only in the browser.
 
-Los cargos previos del fundador se presentan como experiencia personal; no se atribuyen clientes ni proyectos anteriores a Apex ER.
+The founder's previous roles are presented as personal experience; no past clients or projects are attributed to Apex ER.
